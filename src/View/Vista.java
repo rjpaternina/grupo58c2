@@ -6,12 +6,15 @@ public class Vista {
     
     public static void main(String[] args) {
         Wallet wallet1 = new Wallet (); 
-        Wallet wallet2 = new Wallet ();        
+        Wallet wallet2 = new Wallet ();
+        Wallet wallet3 = new Wallet ();        
         System.out.println(wallet1.saveMoney(200000));
         System.out.println(wallet1.saveMoney(300000));
         System.out.println(wallet1.breakLimits());
         System.out.println(wallet1.saveMoney(600000));
         System.out.println(wallet1.getSaldo());
         System.out.println(wallet2.getSaldo());
+        System.out.println(wallet2.saveMoney(500000));
+        System.out.println(wallet3.getSaldo());
     }
 }
